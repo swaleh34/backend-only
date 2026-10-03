@@ -1,8 +1,9 @@
 import httpx
 import os
+from pathlib import Path
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(Path(__file__).resolve().parent / ".env")
 
 GROQ_KEYS = [
     key.strip()

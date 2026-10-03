@@ -1,40 +1,16 @@
-# Core Framework
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
-pydantic==2.5.3
-pydantic-settings==2.1.0
-
-# Database
-sqlalchemy==2.0.25
-alembic==1.13.1
-
-# Authentication
-python-jose[cryptography]==3.3.0
-passlib[bcrypt]==1.7.4
-python-multipart==0.0.6
-
-# Redis & Caching
-redis==5.0.1
-hiredis==2.2.3
-
-# AI/ML
-langchain==0.1.4
-langchain-community==0.0.13
-openai==1.7.2
-tiktoken==0.5.2
-
-# Arabic NLP
-arabic-reshaper==3.0.0
-python-bidi==0.4.2
-
-# Utilities
-httpx==0.26.0
-aiofiles==23.2.1
-python-dotenv==1.0.0
-beautifulsoup4==4.12.3
-lxml==5.1.0
-
-# Development
-pytest==7.4.4
-pytest-asyncio==0.23.3
-black==23.12.1
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+httpx
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+email-validator
+sqlalchemy
+redis
+arabic-reshaper
+python-bidi
+beautifulsoup4
+lxml
